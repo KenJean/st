@@ -11,7 +11,7 @@ static char *font = "FiraCode Nerd Font:pixelsize=11:antialias=true:autohint=tru
 static char *font2[] = {
 /*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
 	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true",
-    "JoyPixels:pixelsize=15:antialias=true:autohint=true",
+  "JoyPixels:pixelsize=15:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;
@@ -100,10 +100,10 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 4;
+unsigned int tabspaces = 2;
 
 /* bg opacity */
-float alpha = 0.6;
+float alpha = 0.3;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
