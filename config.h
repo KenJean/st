@@ -5,13 +5,21 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font:pixelsize=10:antialias=true:autohint=true";
+
+// small
+// static char *font = "FiraCode Nerd Font:pixelsize=10:antialias=true:autohint=true";
+// normal
+static char *font = "FiraCode Nerd Font:pixelsize=11:antialias=true:autohint=true";
 
 /* Spare fonts */
 static char *font2[] = {
 /*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
-	"Hack Nerd Font Mono:pixelsize=10:antialias=true:autohint=true",
-  "JoyPixels:pixelsize=12:antialias=true:autohint=true",
+  // small
+	// "Hack Nerd Font Mono:pixelsize=10:antialias=true:autohint=true",
+  // "JoyPixels:pixelsize=12:antialias=true:autohint=true",
+  // normal
+	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true",
+  "Noto Color Emoji:pixelsize=11:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;
@@ -103,7 +111,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 2;
 
 /* bg opacity */
-float alpha = 0.9;
+float alpha = 0.4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
